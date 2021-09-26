@@ -1,19 +1,24 @@
 
 function clicou(){
-   // document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    document.getElementById("agradecimento").innerHTML="<b>Obrigado por clicar</b>";
     //console.log( document.getElementById("agradecimento"));
-    alert("Obrigado por clicar");
+    //alert("Obrigado por clicar");
 }
 
 
 
 
-/*
+
 function redirecionar(){
-    window.open("https://beerorcoffee.com/");
-}
-*/
+    //window.location.href ="https://beerorcoffee.com/";
+    window.open ("https://beerorcoffee.com/");
 
+}
+
+function trocar(){
+    alert( "Troca texto");
+
+}
 
 /*
 function soma (n1, n2){
